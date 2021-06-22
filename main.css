@@ -7,6 +7,7 @@
     max-width: 1920px;
     width: 100%;
     margin: 10px auto;
+    overflow: hidden;
 }
 .header{
     display: flex;
@@ -27,6 +28,13 @@
 .color{
     color: #707070;
 }
-/* .search_icon{
-    width: 5px;
-} */
+.search_icon:last-child{
+    margin-right:0;
+}
+.first_section{
+    max-width: 1640px;
+    margin: 0px 60px;
+}
+.first_section img{
+    width:100%;
+}
