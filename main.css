@@ -58,26 +58,122 @@
 } */
 .second_section_box{
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 10px 60px;
     
 }
 .first_article{
     border: 1px solid #666666;
-    padding:40px 30px;
-    width: 200px;
-    
+    width: 400px;
+    height: 500px;
 }
 .first_article img{
-    width:140px;
-    
+    width:400px;
+    height:282px;
+}
+.title_text{
+    padding: 20px 30px;
+}
+.title_text h3{
+    text-align:15px;
+    color:#707070;
+}
+.title_text p{
+    padding-top: 10px;
+}
+
+.second_article{
+    border: 1px solid #666666;
+    width: 400px;
+    height: 500px;
 }
 .second_article img{
-    width:140px;
+    width: 400px;
+    height: 282px;  
+}
+.second_article h3{
+    text-align: 15px;
+    color:#707070;
+}
+.second_article p{
+    padding-top: 10px;
+}
+.second_text{
+    padding: 20px 30px;
+}
+.beside_text{
+    display: flex;
+    justify-content: flex-end;
+    padding:80px 10px 0 10px;
+    font-size: 20px;
+    color:#707070;
     
 }
+.third_article{
+    border: 1px solid #666666;
+    width: 400px;
+    height: 500px;
+}
 .third_article img{
-    width:140px;
+    width: 400px;
+    height: 290px;    
+}
+.third_article h3{
+    text-align: 15px;
+    color:#707070;
+}
+.third_article p{
+    padding-top: 10px;
+}
+.third_text{
+    padding: 20px 30px;
+}
+.between_text{
+    display: flex;
+    justify-content: center;
+    padding:20px 0 0;
+    font-size: 20px;
+    color:#707070;
+    /* border: 1px solid #666666; */
+}
+
+
+.third_section_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+.third_section_title{
+    padding:60px 60px;
+    font-size: 20px;
+}
+.footer_background{
+    background-color:#2E2E2E ;
+    /* max-width: 1920px; */
+    width: 100%;
+    height: 100%;
+}
+.footer_container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content:space-between;
+    padding:30px 60px 30px 60px;
+}
+.footer_icon{
+    width: 80%;
+    padding: 10px 0;
+}
+.footer_info{
+    color: white;
+    display: flex;
     
+}
+.footer_icons{
+    display: flex;
+    justify-content: flex-end;
+
 }
