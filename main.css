@@ -166,14 +166,19 @@
 .footer_icon{
     width: 80%;
     padding: 10px 0;
+    
 }
 .footer_info{
     color: white;
     display: flex;
-    
+    padding:0 60px 30px;  
 }
 .footer_icons{
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom:40px;
 
+}
+.beside{
+    padding-left: 30px;
 }
