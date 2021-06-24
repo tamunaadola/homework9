@@ -161,24 +161,26 @@
     margin: 10px auto;
     display: flex;
     justify-content:space-between;
-    padding:30px 60px 30px 60px;
+    padding:30px 30px 30px 50px;
 }
 .footer_icon{
-    width: 80%;
-    padding: 10px 0;
-    
+    width: 90%;
+    padding: 20px 0;   
 }
 .footer_info{
     color: white;
-    display: flex;
-    padding:0 60px 30px;  
+    padding:0 70px 30px;  
+}
+.footer_title{
+    font-size: 17px;
 }
 .footer_icons{
-    display: flex;
-    align-items: flex-end;
-    padding-bottom:40px;
-
+    padding-bottom:40px; 
 }
-.beside{
+.footer_icons img:last-child{
+    margin-right: 0;
+}
+.beside {
     padding-left: 30px;
+    
 }
